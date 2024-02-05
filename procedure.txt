@@ -1,0 +1,12 @@
+define
+tip: info
+input: height, width, difficulty, multiplayer(number)
+setting
+while(True):
+    GetKeyBoard()
+    KeyProcess()
+    SnakeMove()
+    for i in [0, 1, ..., modern.multiplayer-1]:
+        SnakeHit()
+    if "all snakes died"
+        PrintDeath
